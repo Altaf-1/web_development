@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="start">Start Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="choices">
+                <div class="choice" id="W" onclick="checkAnswer('W')"></div>
+                <div class="choice" id="X" onclick="checkAnswer('X')"></div>
+                <div class="choice" id="Y" onclick="checkAnswer('Y')"></div>
+                <div class="choice" id="Z" onclick="checkAnswer('Z')"></div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    <script src="quiz.js"></script>
+    <button id="end" onclick="myFunction()">End Quiz</button>
+</body>
+
+</html>
