@@ -68,6 +68,7 @@ body {
 #choices {
     position: absolute;
     top: 400px;
+    left: 380px;
     padding: 10px
 }
 
@@ -173,7 +174,7 @@ body {
     text-align: center;
     cursor: pointer;
     position: absolute;
-    left: 600px;
+    left: 550px;
     top: 750px;
     color: rgb(72, 17, 201);
 }
