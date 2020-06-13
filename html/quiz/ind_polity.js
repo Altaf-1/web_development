@@ -162,8 +162,15 @@ function scoreRender() {
 
     scoreDiv.innerHTML = "<img src=" + img + ">";
     scoreDiv.innerHTML += "<p>" + scorePerCent + "%</p>";
+    if (scorePerCent < 40) {
+        alert("I am an alert box!");
+    } else if (scorePerCent < 60) {
+        alert("I am an alert box!");
+    } else if (scorePerCent < 80) {
+        alert("I am an alert box!");
+    }
 }
 
 function myFunction() {
-    location.replace("https://www.w3schools.com")
+    location.replace("onlinequiz.html")
 }
