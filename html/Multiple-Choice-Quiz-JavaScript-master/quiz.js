@@ -12,9 +12,9 @@ const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
 const end = document.getElementById("end");
 
-// create our questions
+// create our questions 
 let questions = [{
-    question: "<h3>A. The loss of citizenship, by deprivation, is a compulsory termination of citizenship by the Central Government. In which of the following cases,the loss of citizenship by deprivation might occur?</h3><p><br>1. The citizen has been ordinarily resident out of India for 4 years continuously.<br>2. The citizen has shown disloyalty to the Constitution of India.<br><br>Which of the statements given above is/are correct?</p>",
+    question: "<h4>A. The loss of citizenship, by deprivation, is a compulsory termination of citizenship by the Central Government. In which of the following cases,the loss of citizenship by deprivation might occur?</h4><p><br>1. The citizen has been ordinarily resident out of India for 4 years continuously.<br>2. The citizen has shown disloyalty to the Constitution of India.<br><br>Which of the statements given above is/are correct?</p>",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "Both 1 and 2",
