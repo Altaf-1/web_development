@@ -16,66 +16,38 @@ const end = document.getElementById("end");
 let questions = [{
     question: "<h4>A. The loss of citizenship, by deprivation, is a compulsory termination of citizenship by the Central Government. In which of the following cases,the loss of citizenship by deprivation might occur?</h4><p><br>1. The citizen has been ordinarily resident out of India for 4 years continuously.<br>2. The citizen has shown disloyalty to the Constitution of India.<br>Which of the statements given above is/are correct?</p>",
     choiceW: "1 only",
-    choiceX: "2 only",
-    choiceY: "Both 1 and 2",
+    choiceX: "Both 1 and 2",
+    choiceY: "2 only",
     choiceZ: "Neither 1 or 2",
-    correct: "X"
+    correct: "Y"
 }, {
-    question: "<h3>B. Right to freedom guaranteed under Articles 19 to 22 cover which of these rights?</h3><br> 1. Prohibition of traffic in human beings. <br> 2. Protection against arrest and detention in certain cases. <br> 3. Right to freedom of speech,movement and expression. <br> 4. Right to freedom against bonded labour. <br><br> Which of the statements given above is / are correct ? ",
+    question: "<h4>B. Right to freedom guaranteed under Articles 19 to 22 cover which of these rights?</h4><p><br> 1. Prohibition of traffic in human beings. <br> 2. Protection against arrest and detention in certain cases. <br> 3. Right to freedom of speech,movement and expression. <br> 4. Right to freedom against bonded labour. <br><br> Which of the statements given above is / are correct ?</p> ",
     choiceW: "1 and 2",
-    choiceX: "2 and 3",
+    choiceX: "3 and 4",
     choiceY: "2,3 and 4",
-    choiceZ: "3 and 4",
+    choiceZ: "2 and 3",
+    correct: "Z"
+}, {
+    question: "<h4>C. Consider the following statements:</h4><p><br>1. A law made by the Parliament during President’ s Rule automatically stands repealedafter President’ s Rule <br > 2. The Parliament can make laws on any matter in the State Listfor implementing theinternational treaties,agreements or conventions. <br><br> Which of the following statements is / are correct ?</p>",
+    choiceW: "1 only",
+    choiceX: "1 only",
+    choiceY: "Both 1 & 2",
+    choiceZ: "None of the above",
     correct: "X"
 }, {
-    question: "<h3>C. Consider the following rights of the Indian Citizens:</h3><br>1. No citizen can be denied his or her life except by procedure as laid down under the law. <br> 2. Usually no one can be arrested without being told the groundsfor such an arrest. <br> 3. It is mandatoryfor the police to take an arrested person to the nearest magistrate within24 hours of arrest. <br> 4. If the government feels that a person can be a threat to law and order or to the peace andsecurity of the nation,it can detain or arrest that person. <br><br>Which of the statements given above is / are correct ? ",
-    choiceW: "1,2,3,4",
-    choiceX: "1,3 and 4",
-    choiceY: "2 and 4",
-    choiceZ: "1 and 3",
-    correct: "W"
-}, {
-    question: "<h3>D. Inner Line Permit (ILP) for the North-Eastern states of Arunachal Pradesh, Mizoram and Nagaland can be issued for: </h3><br> 1. Purchasing property in these states. <br> 2. Travel Purposes.<br> 3. Setting up business. <br> <br> Which of the above statements is / are correct ? ",
+    question: "<h4>D. Inner Line Permit (ILP) for the North-Eastern states of Arunachal Pradesh, Mizoram and Nagaland can be issued for: </h4><p><br> 1. Purchasing property in these states. <br> 2. Travel Purposes.<br> 3. Setting up business. <br> <br> Which of the above statements is / are correct ? </p>",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "1 and 2",
     choiceZ: "2 and 3",
-    correct: "Z"
-}, {
-    question: "<h3>E. During a National Emergency in a specific state</h3><br>1. The Centre becomes entitled to give executive directions to any state on any matterirrespective of whether it is in the Union List or State List. <br> 2. The concerned state Government is suspendedif the President passes such an orderwith the proclamation of the emergency. <br> 3. The legislative power of the concerned state legislature is suspended. <br> 4. The President can issue ordinances on the state subjects also, for any state, if theParliament is not in session.<br><br>Which of the above statements is / are correct ? ",
-    choiceW: "1 and 2",
-    choiceX: "2 and 3",
-    choiceY: "2,3 and 4",
-    choiceZ: "3 and 4",
     correct: "X"
 }, {
-    question: "Right to freedom guaranteed under Articles 19 to 22 cover which of these rights?<br> 1. Prohibition of traffic in human beings. <br> 2. Protection against arrest and detention in certain cases. <br> 3. Right to freedom of speech,movement and expression. <br> 4. Right to freedom against bonded labour. <br><br> Which of the statements given above is / are correct ? ",
-    choiceW: "1 and 2",
-    choiceX: "2 and 3",
-    choiceY: "2,3 and 4",
-    choiceZ: "3 and 4",
-    correct: "X"
-}, {
-    question: "Right to freedom guaranteed under Articles 19 to 22 cover which of these rights?<br> 1. Prohibition of traffic in human beings. <br> 2. Protection against arrest and detention in certain cases. <br> 3. Right to freedom of speech,movement and expression. <br> 4. Right to freedom against bonded labour. <br><br> Which of the statements given above is / are correct ? ",
-    choiceW: "1 and 2",
-    choiceX: "2 and 3",
-    choiceY: "2,3 and 4",
-    choiceZ: "3 and 4",
-    correct: "X"
-}, {
-    question: "Right to freedom guaranteed under Articles 19 to 22 cover which of these rights?<br> 1. Prohibition of traffic in human beings. <br> 2. Protection against arrest and detention in certain cases. <br> 3. Right to freedom of speech,movement and expression. <br> 4. Right to freedom against bonded labour. <br><br> Which of the statements given above is / are correct ? ",
-    choiceW: "1 and 2",
-    choiceX: "2 and 3",
-    choiceY: "2,3 and 4",
-    choiceZ: "3 and 4",
-    correct: "X"
-}, {
-    question: "Right to freedom guaranteed under Articles 19 to 22 cover which of these rights?<br> 1. Prohibition of traffic in human beings. <br> 2. Protection against arrest and detention in certain cases. <br> 3. Right to freedom of speech,movement and expression. <br> 4. Right to freedom against bonded labour. <br><br> Which of the statements given above is / are correct ? ",
-    choiceW: "1 and 2",
-    choiceX: "2 and 3",
-    choiceY: "2,3 and 4",
-    choiceZ: "3 and 4",
-    correct: "X"
+    question: "<h4>E. The consequences of the proclamation of a Financial Emergency are that</h4><p><br>1. The Centre can direct the statefor reservation of all money bills or other financialbills for the consideration of the President after they are passed. <br > 2. The executive authority of the Centre extends to directing any state to observe such canons of financial propriety as are specified by it. <br > Which of the above statements is / are correct ? </p> ",
+    choiceW: "1 only",
+    choiceX: "1 only",
+    choiceY: "Both 1 & 2",
+    choiceZ: "None of the above",
+    correct: "Y"
 }];
 
 // create some variables
