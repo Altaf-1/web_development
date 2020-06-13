@@ -44,7 +44,7 @@ let questions = [{
 }, {
     question: "<h4>E. The consequences of the proclamation of a Financial Emergency are that</h4><p><br>1. The Centre can direct the statefor reservation of all money bills or other financialbills for the consideration of the President after they are passed. <br > 2. The executive authority of the Centre extends to directing any state to observe such canons of financial propriety as are specified by it. <br > Which of the above statements is / are correct ? </p> ",
     choiceW: "1 only",
-    choiceX: "1 only",
+    choiceX: "2 only",
     choiceY: "Both 1 & 2",
     choiceZ: "None of the above",
     correct: "Y"
