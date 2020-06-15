@@ -21,14 +21,14 @@ let questions = [{
     choiceZ: "Neither 1 or 2",
     correct: "X"
 }, {
-    question: "<h4>B. Which of the following was/were the main provisions of the Nehru Report?</h4><p><br>1. Attainment of Poorna Swaraj <br>2. India should be a federation. <br>3. Election should be on the basis of adult suffrage. <br>4. Separate electoratefor Linguistic Minorities. <br>Select the correct answer using the code given below:</p> ",
+    question: "<h4>B. Which of the following was/were the main provisions of the Nehru Report?</h4><p><br>1. Attainment of Poorna Swaraj. <br>2. India should be a federation. <br>3. Election should be on the basis of adult suffrage. <br>4. Separate electoratefor Linguistic Minorities. <br>Select the correct answer using the code given below:</p> ",
     choiceW: "1 and 2",
     choiceX: "3 and 4",
     choiceY: "2,3 and 4",
     choiceZ: "2 and 3",
     correct: "Z"
 }, {
-    question: "<h4>C. With reference to the Battle of Plassey (1757), consider the following statements:</h4><p><br>1. It resulted in the end of French forces. <br>2. The British became the paramount European power in India. <br>3. Exemption from paying duties on private trade. <br>Which of the statements given above is / are correct ? </p>",
+    question: "<h4>C. With reference to the Battle of Plassey (1757), consider the following statements:</h4><p><br>1. It resulted in the end of French forces. <br>2. The British became the paramount European power in India. <br>3. Exemption from paying duties on private trade. <br>Which of the statements given above is/are correct ? </p>",
     choiceW: "1 only",
     choiceX: "1 only",
     choiceY: "Both 1 & 3",
@@ -42,7 +42,7 @@ let questions = [{
     choiceZ: "None of the above",
     correct: "Z"
 }, {
-    question: "<h4>E. Consider the following statements with respect to the Wood’s Dispatch of 1854:</h4><p><br>1. It suggested to educate only a small section of upper and middle classes in line with Macaulay’ s Minute. <br>2. It recommended English as the medium of instruction for higher studies and vernacular at school level. <br>3. It laid stress on female and vocational education and on teachers’ training. <br>Which of the statements given above is/are correct ? </p>",
+    question: "<h4>E. Consider the following statements with respect to the Wood’s Dispatch of 1854:</h4><p><br>1. It suggested to educate only a small section of upper and middle classes in line with Macaulay’s Minute. <br>2. It recommended English as the medium of instruction for higher studies and vernacular at school level. <br>3. It laid stress on female and vocational education and on teachers’ training. <br>Which of the statements given above is/are correct ? </p>",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "Both 1 & 3",

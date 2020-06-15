@@ -14,7 +14,7 @@ const end = document.getElementById("end");
 
 // create our questions 
 let questions = [{
-    question: "<h4>A. Consider the following statements with reference to the Mughal empire: </h4><p><br>1. The Mughal economy was largely dependent on the income from agriculture.<br>2. Along with agriculture, the peasants under the Mughal state also adopted the jajmani system. <br> Select the correct answer using the code given below: </p> ",
+    question: "<h4>A. Consider the following statements with reference to the Mughal empire:</h4><p><br>1. The Mughal economy was largely dependent on the income from agriculture.<br>2. Along with agriculture, the peasants under the Mughal state also adopted the jajmani system. <br> Select the correct answer using the code given below:</p> ",
     choiceW: "1 only",
     choiceX: "Both 1 and 2",
     choiceY: "2 only",
@@ -42,7 +42,7 @@ let questions = [{
     choiceZ: "Neither 1 nor 2",
     correct: "Z"
 }, {
-    question: "<h4>E. Consider the following statements regarding ‘minar’, a common feature of stambha or tower in the Indian subcontinent: </h4><p><br>1. The phenomenal height of a minar, symbolized the might and power of the ruler. <br>2. The minar was also used for everyday activities like the azaan or call to prayer.<br>Which of the statements given above is/are correct ? </p>",
+    question: "<h4>E. Consider the following statements regarding ‘minar’, a common feature of stambha or tower in the Indian subcontinent:</h4><p><br>1. The phenomenal height of a minar, symbolized the might and power of the ruler. <br>2. The minar was also used for everyday activities like the azaan or call to prayer.<br>Which of the statements given above is/are correct ?</p>",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "Both 1 & 2",
@@ -153,22 +153,25 @@ function scoreRender() {
 
     // calculate the amount of question percent answered by the user
     const scorePerCent = Math.round(100 * score / questions.length);
-    // choose the image based on the scorePerCent
-    let img = (scorePerCent >= 80) ? "img/5.png" :
-        (scorePerCent >= 60) ? "img/4.png" :
-        (scorePerCent >= 40) ? "img/3.png" :
-        (scorePerCent >= 20) ? "img/2.png" :
-        "img/1.png";
-
-    scoreDiv.innerHTML = "<img src=" + img + ">";
-    scoreDiv.innerHTML += "<p>" + scorePerCent + "%</p>";
+    
     if (scorePerCent < 40) {
-        alert("I am an alert box!");
+        Swal.fire({
+        title: 'Oops...',
+        text: 'Something went wrong!',
+        footer: '<a href="onlinequiz.html">GO HOME</a>'
+    });
     } else if (scorePerCent < 60) {
-        alert("I am an alert box!");
+        Swal.fire({
+        title: 'Oops...',
+        text: 'Something went wrong!',
+        footer: '<a href="onlinequiz.html">GO HOME</a>'
+    });
     } else if (scorePerCent < 80) {
-        alert("I am an alert box!");
-    }
+        Swal.fire({
+        title: 'Oops...',
+        text: 'Something went wrong!',
+        footer: '<a href="onlinequiz.html">GO HOME</a>'
+    });
 }
 
 function myFunction() {

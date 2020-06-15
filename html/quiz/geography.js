@@ -21,7 +21,7 @@ let questions = [{
     choiceZ: "1,2,3",
     correct: "Y"
 }, {
-    question: "<h4>B. Which of the following reasons may be attributed to excessive cold in North India during the winter season ? </h4><p><br>1. Continentality of the north Indian region.<br> 2. Snowfall in the Himalayan ranges. <br> 3. Cold winds coming from the Caspian Sea. <br> 4. Early - onset of easterly jet stream. <br> Select the correct answer using the code given below :</p>",
+    question: "<h4>B. Which of the following reasons may be attributed to excessive cold in North India during the winter season ? </h4><p><br>1. Continentality of the north Indian region.<br> 2. Snowfall in the Himalayan ranges. <br> 3. Cold winds coming from the Caspian Sea. <br> 4. Early-onset of easterly jet stream. <br> Select the correct answer using the code given below :</p>",
     choiceW: "1 and 2",
     choiceX: "3 and 4",
     choiceY: "2,3 and 4",
@@ -42,7 +42,7 @@ let questions = [{
     choiceZ: "2 and 3",
     correct: "Y"
 }, {
-    question: "<h4>E. With reference to ‘break’ in monsoon, consider the following statements:</h4><p><br>1. It refers to the most deficient monsoon year in a decade. <br> 2. It occurs due to lack of rain - bearing storms along the ITCZ over northern India. <br> Which of the statements given above is/are NOT correct ? </p>",
+    question: "<h4>E. With reference to ‘break’ in monsoon, consider the following statements:</h4><p><br>1. It refers to the most deficient monsoon year in a decade. <br> 2. It occurs due to lack of rain-bearing storms along the ITCZ over northern India. <br> Which of the statements given above is/are NOT correct ? </p>",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "Both 1 & 2",

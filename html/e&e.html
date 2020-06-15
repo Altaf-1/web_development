@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 
 <head>
@@ -11,6 +11,7 @@
     <div id="container">
         <div id="start">Start Quiz!</div>
         <div id="quiz" style="display: none">
+            <div id="scoreContainer" style="display: none"></div>
             <div id="question"></div><br>
             <div id="choices">
                 <div class="choice" id="W" onclick="checkAnswer('W')"></div><br><br>
@@ -23,12 +24,13 @@
                 <div id="btimeGauge"></div>
                 <div id="timeGauge"></div>
             </div>
+
             <div id="progress"></div>
         </div>
-        <div id="scoreContainer" style="display: none"></div>
+        <button id="end" onclick="myFunction()">End Quiz</button>
     </div>
     <script src="quiz/e&e.js"></script>
-    <button id="end" onclick="myFunction()">End Quiz</button>
+    <!--<button id="end" onclick="myFunction()">End Quiz</button>-->
 </body>
 
 </html>

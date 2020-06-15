@@ -28,14 +28,14 @@ let questions = [{
     choiceZ: "1,2,3 and 4",
     correct: "Z"
 }, {
-    question: "<h4>C. With reference to wetlands of India, consider the following statements:</h4><p><br>1. The country’ s total geographical area under the category of wetlands is recorded more in Gujarat as compared to other states. <br> 2. In India,the total geographical area of coastal wetlands is larger than that of inlandwetlands. <br> Which of the statements given above is/are correct ?</p>",
+    question: "<h4>C. With reference to wetlands of India, consider the following statements:</h4><p><br>1. The country’s total geographical area under the category of wetlands is recorded more in Gujarat as compared to other states. <br> 2. In India, the total geographical area of coastal wetlands is larger than that of inland wetlands. <br> Which of the statements given above is/are correct ?</p>",
     choiceW: "1 only",
     choiceX: "1 only",
     choiceY: "Both 1 & 2",
     choiceZ: "None of the above",
     correct: "W"
 }, {
-    question: "<h4>D. Consider the following statements with respect to ‘ocean acidification’:</h4><p><br>1. It is the change in the ocean chemistry, lowering of the pH level of oceans.<br> 2. The pH of the ocean surface has decreased by about 0.1 pH unit since the beginning of the industrial revolution. <br> 3. The ocean currently has a pH of around 8 and is therefore‘ acidic’. <br> Which of the statements given above is/are correct ?</p> ",
+    question: "<h4>D. Consider the following statements with respect to ‘ocean acidification’:</h4><p><br>1. It is the change in the ocean chemistry, lowering of the pH level of oceans.<br> 2. The pH of the ocean surface has decreased by about 0.1 pH unit since the beginning of the industrial revolution. <br> 3. The ocean currently has a pH of around 8 and is therefore ‘acidic’. <br> Which of the statements given above is/are correct ?</p> ",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "1 and 2",

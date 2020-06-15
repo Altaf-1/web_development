@@ -14,7 +14,7 @@ const end = document.getElementById("end");
 
 // create our questions 
 let questions = [{
-    question: "<h4>A. Which of the following statements is/are correct with respect to the horizontal distribution of salinity in oceans ? </h4><p><br>1. The North Sea records higher-than normal salinity due to saline water brought by the North Atlantic Drift. <br> 2. Black Sea records lower- than-normal salinity due to the fresh water influx by rivers. <br> Select the correct answer using the code given below: </p> ",
+    question: "<h4>A. Which of the following statements is/are correct with respect to the horizontal distribution of salinity in oceans ? </h4><p><br>1. The North Sea records higher-than normal salinity due to saline water brought by the North Atlantic Drift. <br> 2. Black Sea records lower-than-normal salinity due to the fresh water influx by rivers. <br> Select the correct answer using the code given below: </p> ",
     choiceW: "1 only",
     choiceX: "Both 1 and 2",
     choiceY: "2 only",
@@ -28,7 +28,7 @@ let questions = [{
     choiceZ: "2 and 3",
     correct: "X"
 }, {
-    question: "<h4>C. Which of the following statements is/are correct regarding Lok Adalats?</h4><p><br>1. It is one of the components of Alternative Dispute Resolution. <br>2. It is based on Gandhian principles. <br> 3. It has non - statutory status. <br> Which of the statements given above is/are correct? </p>",
+    question: "<h4>C. Which of the following statements is/are correct regarding Lok Adalats?</h4><p><br>1. It is one of the components of Alternative Dispute Resolution. <br>2. It is based on Gandhian principles. <br> 3. It has non-statutory status. <br> Which of the statements given above is/are correct? </p>",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "2 & 3",

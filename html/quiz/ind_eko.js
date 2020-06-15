@@ -35,14 +35,14 @@ let questions = [{
     choiceZ: "None of the above",
     correct: "W"
 }, {
-    question: "<h4>D. The Reserve Bank of India (RBI) acts as a bankers’ bank. This would imply which of the following ? <br> 1. Other banks retain their deposits with the RBI. <br> 2. The RBI lends funds to the commercial banks in times of need.<br>3. The RBI advises the commercial banks on monetary matters. <br> Which of the statements given above is/are correct ? </p>",
+    question: "<h4>D. The Reserve Bank of India (RBI) acts as a banker's bank. This would imply which of the following ? <br> 1. Other banks retain their deposits with the RBI. <br> 2. The RBI lends funds to the commercial banks in times of need.<br>3. The RBI advises the commercial banks on monetary matters. <br> Which of the statements given above is/are correct ?</p>",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "1 and 2",
     choiceZ: "1,2 and 3",
     correct: "Z"
 }, {
-    question: "<h4>E. Which among the following measures would revive the downward trend of Indian economy ? < /h4><p><br>1. Free trade Agreements with different countries. <br>2. Higher flow of funds to the Non-Banking Financial (NBFC) Sector.<br>3. Increase in Repo Rate by RBI<br>Which of the statements given above is/are correct ? </p>",
+    question: "<h4>E. Which among the following measures would revive the downward trend of Indian economy ? </h4><p><br>1. Free trade Agreements with different countries. <br>2. Higher flow of funds to the Non-Banking Financial (NBFC) Sector.<br>3. Increase in Repo Rate by RBI<br>Which of the statements given above is/are correct ?</p>",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "Both 1 & 2",

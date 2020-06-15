@@ -28,7 +28,7 @@ let questions = [{
     choiceZ: "2 and 3",
     correct: "Y"
 }, {
-    question: "<h4>C. Consider the following statements with respect to ‘Project Mausam’:</h4><p><br>It aims to conduct research with respect to the onset of the South-West Monsoon in the Indian subcontinent. <br> 2. It will also study the effect of El-Nino and La-Nina on the Indian Monsoon. <br> 3. The project is a joint collaboration between India and the Indian Ocean Rim Association(IORA). <br> Which of the statements given above is / are correct ? </p>",
+    question: "<h4>C. Consider the following statements with respect to ‘Project Mausam’:</h4><p><br>It aims to conduct research with respect to the onset of the South-West Monsoon in the Indian subcontinent. <br> 2. It will also study the effect of El-Nino and La-Nina on the Indian Monsoon. <br> 3. The project is a joint collaboration between India and the Indian Ocean Rim Association(IORA). <br> Which of the statements given above is/are correct ? </p>",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "3 only",
@@ -42,7 +42,7 @@ let questions = [{
     choiceZ: "Neither 1 nor 2",
     correct: "W"
 }, {
-    question: "<h4>E. Consider the following statements with respect to the Panel of Chairpersons of Lok Sabha: </h4><p><br>1. The President nominates from amongst the members of the Lok Sabha, a panel of not more than ten chairpersons. <br> 2. A member of the panel of chairpersons cannot preside over the House,when the office of the Speaker or the Deputy Speaker falls vacant. <br> Which of the statements given above is/are correct ? </p>",
+    question: "<h4>E. Consider the following statements with respect to the Panel of Chairpersons of Lok Sabha: </h4><p><br>1. The President nominates from amongst the members of the Lok Sabha, a panel of not more than ten chairpersons. <br> 2. A member of the panel of chairpersons cannot preside over the House, when the office of the Speaker or the Deputy Speaker falls vacant. <br> Which of the statements given above is/are correct ? </p>",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "Both 1 & 2",

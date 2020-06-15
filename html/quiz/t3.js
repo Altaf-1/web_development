@@ -28,7 +28,7 @@ let questions = [{
     choiceZ: "2 and 3",
     correct: "X"
 }, {
-    question: "<h4>C. Coral reefs are complex ecosystems. Which of the following organisms constitute their biotic communities ? < /h4><p><br>1. Polyps. <br> 2. Sea urchins. <br> 3. Zooxanthellae. <br> Which of the statements given above is /are correct ? < /p>",
+    question: "<h4>C. Coral reefs are complex ecosystems. Which of the following organisms constitute their biotic communities ? < /h4><p><br>1. Polyps. <br> 2. Sea urchins. <br> 3. Zooxanthellae. <br> Which of the statements given above is/are correct ? < /p>",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "Neither 1 nor 2",

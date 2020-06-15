@@ -21,28 +21,28 @@ let questions = [{
     choiceZ: "Neither 1 or 2",
     correct: "Y"
 }, {
-    question: "<h4>B. Right to freedom guaranteed under Articles 19 to 22 cover which of these rights?</h4><p><br> 1. Prohibition of traffic in human beings. <br> 2. Protection against arrest and detention in certain cases. <br> 3. Right to freedom of speech,movement and expression. <br> 4. Right to freedom against bonded labour. <br><br> Which of the statements given above is / are correct ?</p> ",
+    question: "<h4>B. Right to freedom guaranteed under Articles 19 to 22 cover which of these rights?</h4><p><br> 1. Prohibition of traffic in human beings. <br> 2. Protection against arrest and detention in certain cases. <br> 3. Right to freedom of speech,movement and expression. <br> 4. Right to freedom against bonded labour.<br> Which of the statements given above is/are correct ?</p> ",
     choiceW: "1 and 2",
     choiceX: "3 and 4",
     choiceY: "2,3 and 4",
     choiceZ: "2 and 3",
     correct: "Z"
 }, {
-    question: "<h4>C. Consider the following statements:</h4><p><br>1. A law made by the Parliament during President’ s Rule automatically stands repealedafter President’ s Rule <br > 2. The Parliament can make laws on any matter in the State Listfor implementing theinternational treaties,agreements or conventions. <br><br> Which of the following statements is / are correct ?</p>",
+    question: "<h4>C. Consider the following statements:</h4><p><br>1. A law made by the Parliament during President’s Rule automatically stands repealedafter President’s Rule <br > 2. The Parliament can make laws on any matter in the State Listfor implementing theinternational treaties,agreements or conventions. <br><br> Which of the following statements is/are correct ?</p>",
     choiceW: "1 only",
     choiceX: "1 only",
     choiceY: "Both 1 & 2",
     choiceZ: "None of the above",
     correct: "X"
 }, {
-    question: "<h4>D. Inner Line Permit (ILP) for the North-Eastern states of Arunachal Pradesh, Mizoram and Nagaland can be issued for: </h4><p><br> 1. Purchasing property in these states. <br> 2. Travel Purposes.<br> 3. Setting up business. <br> <br> Which of the above statements is / are correct ? </p>",
+    question: "<h4>D. Inner Line Permit (ILP) for the North-Eastern states of Arunachal Pradesh, Mizoram and Nagaland can be issued for: </h4><p><br> 1. Purchasing property in these states. <br> 2. Travel Purposes.<br> 3. Setting up business. <br> <br> Which of the above statements is/are correct ?</p>",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "1 and 2",
     choiceZ: "2 and 3",
     correct: "X"
 }, {
-    question: "<h4>E. The consequences of the proclamation of a Financial Emergency are that</h4><p><br>1. The Centre can direct the statefor reservation of all money bills or other financialbills for the consideration of the President after they are passed. <br > 2. The executive authority of the Centre extends to directing any state to observe such canons of financial propriety as are specified by it. <br > Which of the above statements is / are correct ? </p> ",
+    question: "<h4>E. The consequences of the proclamation of a Financial Emergency are that</h4><p><br>1. The Centre can direct the statefor reservation of all money bills or other financialbills for the consideration of the President after they are passed. <br> 2. The executive authority of the Centre extends to directing any state to observe such canons of financial propriety as are specified by it. <br> Which of the above statements is/are correct ? </p> ",
     choiceW: "1 only",
     choiceX: "2 only",
     choiceY: "Both 1 & 2",
