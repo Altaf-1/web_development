@@ -162,11 +162,17 @@ function scoreRender() {
 
     scoreDiv.innerHTML = "<img src=" + img + ">";
     scoreDiv.innerHTML += "<p>" + scorePerCent + "%</p>";
-    if (scorePerCent < 40) {
-        alert("I am an alert box!");
-    } else if (scorePerCent < 60) {
-        alert("I am an alert box!");
-    } else if (scorePerCent < 80) {
+    if (scorePerCent < 59) {
+        Swal.fire({
+    position: 'top-end',
+    icon: 'success',
+    title: 'Your work has been saved',
+    showConfirmButton: false,
+    timer: 1500
+        })
+    } else if (scorePerCent > 60) {
+        alert("“Your success is near, start with a plan”. You need to go thoroughly with each subject. We suggest you to join our live online courses for a planned preparation. ");
+    } else if (scorePerCent > 80) {
         alert("I am an alert box!");
     }
 }

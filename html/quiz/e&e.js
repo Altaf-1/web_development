@@ -162,13 +162,22 @@ function scoreRender() {
 
     scoreDiv.innerHTML = "<img src=" + img + ">";
     scoreDiv.innerHTML += "<p>" + scorePerCent + "%</p>";
-    if (scorePerCent < 40) {
-        alert("I am an alert box!");
-    } else if (scorePerCent < 60) {
-        alert("I am an alert box!");
-    } else if (scorePerCent < 80) {
-        alert("I am an alert box!");
-    }
+
+     if (scorePerCent > 40) {
+        Swal.fire({
+        text: 'You are not failed, your “success” is just postponed! High time for you to enroll and prepare systematically with us.',
+        footer: '<a href="onlinequiz.html">GO HOME</a>'
+    });
+    } else if (scorePerCent > 60) {
+        Swal.fire({
+        text: '“Your success is near, start with a plan”. You need to go thoroughly with each subject. We suggest you to join our live online courses for a planned preparation.',
+        footer: '<a href="onlinequiz.html">GO HOME</a>'
+    });
+    } else if (scorePerCent > 80) {
+        Swal.fire({
+        text: '“when you focus on the goal, your success increases “. Congratulations! Now please attempt the professional test.',
+        footer: '<a href="onlinequiz.html">GO HOME</a>'
+    });
 }
 
 function myFunction() {

@@ -38,9 +38,9 @@ let questions = [{
     question: "<h4>D. Recently, the Prime Minister named ‘Rohtang tunnel’ as ‘Atal Tunnel’. Consider the following statements in this context: <br> 1. The Rohtang Tunnel is constructed through the Karakoram range.<br>2. It is being built through a joint collaboration of India and China. <br> Which of the statements given above is/are correct ? </p>",
     choiceW: "1 only",
     choiceX: "2 only",
-    choiceY: "1 and 2",
-    choiceZ: "Neither 1 nor 2",
-    correct: "Z"
+    choiceY: "Neither 1 nor 2",
+    choiceZ: "1 and 2",
+    correct: "Y"
 }, {
     question: "<h4>E. Consider the following statements regarding ‘minar’, a common feature of stambha or tower in the Indian subcontinent:</h4><p><br>1. The phenomenal height of a minar, symbolized the might and power of the ruler. <br>2. The minar was also used for everyday activities like the azaan or call to prayer.<br>Which of the statements given above is/are correct ?</p>",
     choiceW: "1 only",
@@ -153,27 +153,24 @@ function scoreRender() {
 
     // calculate the amount of question percent answered by the user
     const scorePerCent = Math.round(100 * score / questions.length);
+    let img = (scorePerCent >= 80) ? "img/5.png" :
+        (scorePerCent >= 60) ? "img/4.png" :
+        (scorePerCent >= 40) ? "img/3.png" :
+        (scorePerCent >= 20) ? "img/2.png" :
+        "img/1.png";
+
+    scoreDiv.innerHTML = "<img src=" + img + ">";
+    scoreDiv.innerHTML += "<p>" + scorePerCent + "%</p>";
     
     if (scorePerCent < 40) {
-        Swal.fire({
-        title: 'Oops...',
-        text: 'Something went wrong!',
-        footer: '<a href="onlinequiz.html">GO HOME</a>'
-    });
-    } else if (scorePerCent < 60) {
-        Swal.fire({
-        title: 'Oops...',
-        text: 'Something went wrong!',
-        footer: '<a href="onlinequiz.html">GO HOME</a>'
-    });
-    } else if (scorePerCent < 80) {
-        Swal.fire({
-        title: 'Oops...',
-        text: 'Something went wrong!',
-        footer: '<a href="onlinequiz.html">GO HOME</a>'
-    });
+        Swal.fire('You are not failed, your “success” is just postponed! High time for you to enroll and prepare systematically with us.');
+    }else if (scorePerCent < 70) {
+        Swal.fire('Your success is near, start with a plan. You need to go thoroughly with each subject. We suggest you to join our live online courses for a planned preparation.');
+    }else{
+        Swal.fire('when you focus on the goal, your success increases. Congratulations! Now please attempt the professional test.');
+    }
 }
 
-function myFunction() {
-    location.replace("onlinequiz.html")
+function myFunction() { 
+    location.replace("onlinequiz.html");
 }
